@@ -1,4 +1,4 @@
-https://playcode.io/880127
+// https://playcode.io/880127
 
 class Block {
     static EVENTS = {
