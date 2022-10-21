@@ -10,7 +10,7 @@ function isObject(value) {
     return typeof value === 'object'
         && value !== null
         && value.constructor === Object
-        && Object.prototype.toString.call(value) === '[Object Object]'
+        && Object.prototype.toString.call(value) === '[object Object]'
 }
 
 function isArrayOrObject(value) {
